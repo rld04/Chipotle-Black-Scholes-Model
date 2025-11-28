@@ -93,5 +93,44 @@ The Black-Scholes model makes several assumptions that don't always hold in real
 
 **Impact:** Can cause model to misprice options during volatile periods.
 
-### 2. Log-Normal Distribution
-**Assumption:** Stock prices fo
+2. Log-Normal Distribution
+Assumption: Stock prices follow a log-normal distribution.
+Reality: Real markets have "fat tails" - extreme events happen more often than the model predicts.
+Impact: May underestimate risk of large price movements.
+3. No Dividends
+Assumption: The stock doesn't pay dividends.
+Reality: Many stocks (including Chipotle occasionally) pay dividends.
+Impact: Can be adjusted with dividend yield, but adds complexity.
+4. European-Style Options
+Assumption: Options can only be exercised at expiration.
+Reality: American options can be exercised any time before expiration.
+Impact: May underprice American options, especially for puts.
+5. No Transaction Costs
+Assumption: No fees, commissions, or taxes.
+Reality: Every trade has costs that eat into profits.
+Impact: Theoretical prices don't account for real trading costs.
+6. Efficient Markets
+Assumption: Markets are perfectly efficient and liquid.
+Reality: There can be bid-ask spreads, liquidity issues, and market manipulation.
+Impact: Prices in thin markets may deviate significantly.
+Modern Improvements
+Since 1973, many improvements have been developed:
+
+Binomial/Trinomial Trees - Better for American options
+Monte Carlo Simulation - Handles complex payoffs
+Stochastic Volatility Models (Heston, SABR) - Accounts for changing volatility
+Jump Diffusion Models - Accounts for sudden price jumps
+Local Volatility Models - Volatility varies by strike and time
+
+When to Trust Black-Scholes
+Black-Scholes works best for:
+✅ Liquid, high-volume stocks (like CMG)
+✅ European-style options
+✅ Near-the-money options
+✅ Moderate time to expiration (30-90 days)
+✅ Normal market conditions
+Black-Scholes is less reliable for:
+❌ Deep out-of-the-money options
+❌ Options with very short or very long expirations
+❌ During market crashes or extreme volatility
+❌ Illiquid stocks with wide bid-ask spreads
