@@ -125,12 +125,20 @@ Local Volatility Models - Volatility varies by strike and time
 When to Trust Black-Scholes
 Black-Scholes works best for:
 -✅ Liquid, high-volume stocks (like CMG)
+
 -✅ European-style options
+
 -✅ Near-the-money options
+
 -✅ Moderate time to expiration (30-90 days)
+
 -✅ Normal market conditions
 Black-Scholes is less reliable for:
+
 -❌ Deep out-of-the-money options
+
 -❌ Options with very short or very long expirations
+
 -❌ During market crashes or extreme volatility
+
 -❌ Illiquid stocks with wide bid-ask spreads
