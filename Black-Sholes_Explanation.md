@@ -2,7 +2,7 @@
 
 ## What is the Black-Scholes Model?
 
-The Black-Scholes model is a mathematical formula used to calculate the theoretical price of options. Developed by economists Fischer Black, Myron Scholes, and Robert Merton in 1973.
+The Black-Scholes model is a mathematical formula used to calculate the theoretical price of options assuming volatility is constant. Developed by economists Fischer Black, Myron Scholes, and Robert Merton in 1973.
 
 ## How Does It Work?
 
