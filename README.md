@@ -3,11 +3,10 @@ A simple Python tool that calculates the fair price of options using the Black-S
 
 ## 🎯 Features
 
-- ✨ Real-time stock data via Yahoo Finance API
-- 📊 Black-Scholes option pricing model
-- 🎲 Probability of profit calculations
-- 📈 Support for both CALL and PUT options
-- ⚡ Fast and simple CLI interface
+- Real-time stock data via Yahoo Finance API
+- Black-Scholes option pricing model
+- Probability of profit calculations
+- Support for both CALL and PUT options
 
 ### Install dependencies
 
