@@ -65,15 +65,14 @@ These represent probabilities from the normal distribution:
 - **N(d₂)** ≈ Probability the option expires in-the-money
 - **N(d₁)** ≈ Expected value factor (slightly higher than N(d₂))
 
-## Why I Chose Black-Scholes
+## Why use Black-Scholes
 
 ### Advantages
 
-1. **Industry Standard** - Most widely used options pricing model in finance
-2. **Fast Calculation** - Closed-form solution means instant results
+1. **Industry Standard** - Most widely used options pricing model
+2. **Fast Calculation** - Closed-form solution
 3. **Educational Value** - Perfect for understanding option pricing fundamentals
 4. **Proven Track Record** - Used by traders and market makers for 50+ years
-5. **Mathematical Elegance** - Beautiful derivation from stochastic calculus
 
 ### Real-World Applications
 
