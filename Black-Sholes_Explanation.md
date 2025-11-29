@@ -121,7 +121,7 @@ Stochastic Volatility Models (Heston, SABR) - Accounts for changing volatility
 Jump Diffusion Models - Accounts for sudden price jumps
 Local Volatility Models - Volatility varies by strike and time
 
-When to Trust Black-Scholes
+Best momments to use Black-Scholes
 Black-Scholes works best for:
 -✅ Liquid, high-volume stocks (like CMG)
 
@@ -132,6 +132,7 @@ Black-Scholes works best for:
 -✅ Moderate time to expiration (30-90 days)
 
 -✅ Normal market conditions
+
 Black-Scholes is less reliable for:
 
 -❌ Deep out-of-the-money options
