@@ -23,7 +23,7 @@ A measure of how much the stock price fluctuates. Higher volatility = higher opt
 ### 5. Risk-Free Rate (r)
 The return on a "safe" investment like US Treasury bonds. Currently around 4-5% annually.
 
-## The Mathematics
+## The Math
 
 ### Call Option Formula
 
