@@ -9,3 +9,4 @@ A simple Python tool that calculates the fair price of options using the Black-S
 - Support for both CALL and PUT options
 
 ## 📍What does the program do?
+Integrates Black Sholes mathematicall model with real time Yahoo Finance to show the propability if a call option would make money
