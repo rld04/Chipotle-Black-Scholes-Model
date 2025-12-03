@@ -14,3 +14,4 @@ The Black-Scholes model calculates option prices by combining:
 - Stock Price: Current CMG price from Yahoo Finance
 - Strike Price: The price you want
 - Time: 30 days until expiration
+- Volatility: Calculated using historical data of 1 year
