@@ -15,3 +15,4 @@ The Black-Scholes model calculates option prices by combining:
 - Strike Price: The price you want
 - Time: 30 days until expiration
 - Volatility: Calculated using historical data of 1 year
+- Risk-Free Rate: Current 10 year Treasury rate
