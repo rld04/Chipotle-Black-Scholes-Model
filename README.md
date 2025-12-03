@@ -12,3 +12,5 @@ A simple Python tool that calculates the fair price of options using the Black-S
 The Black-Scholes model calculates option prices by combining:
 
 - Stock Price: Current CMG price from Yahoo Finance
+- Strike Price: The price you want
+- Time: 30 days until expiration
