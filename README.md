@@ -33,3 +33,8 @@ The Black-Scholes model calculates option prices by combining:
 - Yfiannce
 - Numpy
 - Scipy
+
+## Understanding the Output
+- **Fair Option Price**: The theoretical price you should pay for the option
+- **Probability of Profit**: Likelihood the option will be in the money at expiration
+- **Breakeven Point**: The stock price level where you neither profit nor lose
