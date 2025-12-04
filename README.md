@@ -1,6 +1,10 @@
 # 🌯 Chipotle Black-Scholes Options Calculator
 A simple Python tool that calculates the fair price of options using the Black-Scholes model with real-time data from Yahoo Finance.
 
+![Python](https://img.shields.io/badge/python-3.7+-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Status](https://img.shields.io/badge/status-active-success.svg)
+
 ## 🎯 Features
 
 - Real-time stock data via Yahoo Finance API
@@ -20,3 +24,6 @@ The Black-Scholes model calculates option prices by combining:
 ## Customization
 - strike_price | Change the targeted strike price
 - days | Change the days until expiration
+
+## Required Packages
+- 
