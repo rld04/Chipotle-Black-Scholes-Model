@@ -25,5 +25,11 @@ The Black-Scholes model calculates option prices by combining:
 - strike_price | Change the targeted strike price
 - days | Change the days until expiration
 
-## Required Packages
-- 
+## Prerequisities
+- Python 3.7 or newer
+- pip package manager
+
+# Required Dependencies
+- Yfiannce
+- Numpy
+- Scipy
